@@ -10,6 +10,7 @@ namespace ConsoleApp229
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(1000);
             int[] a = new int[10];
             string[] b = new string[10];
             for (int i = 0; i < a.Length; i++)
@@ -28,10 +29,7 @@ namespace ConsoleApp229
             {
                 m = "good";
             }
-            else
-            {
-                m = "bad";
-            }
-        }
+           
+      }
     }
 }
